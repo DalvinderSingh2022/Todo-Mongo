@@ -35,7 +35,7 @@ This is a backend application for a To-Do management system, built using **Node.
 ### User Authentication
 
 #### Register User
-**Endpoint:** `POST /api/register`
+**Endpoint:** `POST /api/user/register`
 
 **Request Body:**
 ```json
@@ -57,7 +57,7 @@ This is a backend application for a To-Do management system, built using **Node.
 ```
 
 #### Login User
-**Endpoint:** `POST /api/login`
+**Endpoint:** `POST /api/user/login`
 
 **Request Body:**
 ```json
